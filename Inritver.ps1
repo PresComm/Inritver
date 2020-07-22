@@ -1,8 +1,10 @@
 ﻿# Inritver
-# v. 0.1 - 11/26/2019
+# v. 0.5 - 07/22/2020
 # by PresComm
 # https://github.com/PresComm/Inritver
-# https://0x00sec.org
+# https://www.presumptuouscommoner.com
+
+# I am deprecating this standalone script. Inritver's functionality has been moved into a module (Inritver.psm1) as part of The Civyanquark Inspector (https://github.com/PresComm/TheCivyanquarkInspector).
 
 #MIT License
 
@@ -68,6 +70,8 @@ function Show-Banner() {
 #Help function
 function Show-Help() {
     echo "[===HELP INFORMATION===]"
+	echo ""
+	echo "NOTICE: I am deprecating this standalone script. Inritver's functionality has been moved into a module (Inritver.psm1) as part of The Civyanquark Inspector (https://github.com/PresComm/TheCivyanquarkInspector)."
     echo ""
     echo "When run under the context of a user with admin privileges on the target machines, Inritver will iterate through a user-supplied target or target list and pull BitLocker status for each Windows machine contacted."
     echo ""
